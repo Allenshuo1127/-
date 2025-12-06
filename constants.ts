@@ -1,3 +1,4 @@
+
 export const COLORS = {
   EMERALD_DEEP: "#002816",
   EMERALD_LIGHT: "#006B3C",
@@ -24,7 +25,7 @@ export const CONFIG = {
   TREE_HEIGHT: 16,
   TREE_RADIUS: 6,
   SCATTER_RADIUS: 30,
-  ANIMATION_SPEED: 2.0,
+  ANIMATION_SPEED: 1.0, // Restored to 1.0 (2x of previous 0.5)
   // Increased bloom settings for "dazzle/glare" effect (炫光)
   BLOOM_INTENSITY: 3.5,
   BLOOM_THRESHOLD: 0.2,
